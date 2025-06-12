@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Multimedijski sadržaj</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #ADD8E6;
+            color: #191970;
+        }
+        h1 {
+            color: #3F00FF;
+        }
+        img {
+            width: 200px;
+            margin: 10px;
+            border-radius: 8px;
+            border: 2px solid #000080;
+        }
+        video, audio {
+            display: block;
+            margin: 20px 0;
+            max-width: 100%;
+            border-radius: 8px;
+            border: 2px solid #000080;
+        }
+        iframe {
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Multimedijski sadržaj</h1>
+
+<!-- Slike -->
+<section>
+    <h2>Moje slike</h2>
+    <img src="C:\Users\User\Desktop\VJEZBA 10 I 11\multimedija\ASCII_Polaosam_Cover.jpg" alt="Slika 1" />
+    <img src="C:\Users\User\Desktop\VJEZBA 10 I 11\multimedija\ASCII_Polaosam_Logo.jpg" alt="Slika 2" />
+    <img src="C:\Users\User\Desktop\VJEZBA 10 I 11\multimedija\Polaosam_ASCII_Cover3_V2(NO HUD).jpg" alt="Slika 3" />
+</section>
+
+<!-- YouTube video -->
+
+<section>
+    <h2>Video s YouTube-a</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/31JkG9hmipc" 
+        title="YouTube video" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+</section>
+
+<!-- Lokalni video -->
+<section>
+    <h2>Lokalni video</h2>
+    <video controls width="120" height="213">
+        <source src="C:\Users\User\Desktop\VJEZBA 10 I 11\multimedija\IMG_3200.mp4" type="video/mp4" />
+        Vaš preglednik ne podržava video element.
+    </video>
+</section>
+
+<!-- Zvuk -->
+<section>
+    <h2>Zvuk (mp3)</h2>
+    <audio controls>
+        <source src="C:\Users\User\Desktop\VJEZBA 10 I 11\multimedija\metz rodendan.mp3" type="audio/mpeg" />
+        Vaš preglednik ne podržava audio element.
+    </audio>
+</section>
+
+</body>
+</html>
